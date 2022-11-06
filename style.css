@@ -12,6 +12,19 @@ body {
 
 }
 
+nav {
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+
+article {
+    padding: 20px;
+    margin: 20px;
+}
+
 h1 {
     font-size: 3em;
     margin: 0;
@@ -25,6 +38,7 @@ p {
 
 #blog {
     border-top: 1px dotted #ccc;
+    display: flex;
 
 
 }
@@ -42,8 +56,17 @@ p {
  }
 
  img {
-    width: 1000px;
+    width: 600px;
  }
 table {
     background-color: azure;
 }
+
+.msu-img {
+   
+    float: right;
+
+
+}
+
+
