@@ -65,8 +65,19 @@ table {
 .msu-img {
    
     float: right;
+}
+
+@media (max-width: 300px) {
+    h1 {border: #242424;
+        border: 10px;}
+
+        #blog {
+            display: inline-block;
+        }
 
 
 }
+
+
 
 
